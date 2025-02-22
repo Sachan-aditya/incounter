@@ -21,6 +21,10 @@ dependencies {
     implementation libs.guava
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4'
     implementation 'org.mindrot:jbcrypt:0.4'
+
+    // Lombok dependencies
+    implementation 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
 }
 
 testing {
